@@ -30,6 +30,27 @@ st.title("Drowsy Alert System 🚗😴⚠️")
 # Create columns for the layout
 col1, col2, col3 = st.columns([4, 2, 2])  # Left column (for webcam) is wider
 
+# ===============================================
+
+
+image_data = st.camera_input("Take a picture")
+
+if image_data is not None:
+    st.image(image_data)
+
+
+
+
+# ===================================
+
+
+
+
+
+
+
+
+
 # Webcam Feed on Left (col1)
 with col1:
     st.markdown(
