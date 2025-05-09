@@ -1,4 +1,6 @@
 mediapipe==0.10.18
 opencv-python==4.10.0.84
+opencv-python
+
 numpy==1.26.4
 streamlit==1.41.1
