@@ -2,7 +2,6 @@
 
 A lightweight drowsiness detection system using Mediapipe's **Face Landmark Detection Model**.
 
-<img src="assets/example_app.png" alt="Logo" width="100%">
 
 ## **Quick Setup**
 
